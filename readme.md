@@ -8,10 +8,10 @@ This Python script is designed for preprocessing and cleaning datasets based on 
 
 The config file, `'data/raw/config-preprocess-data.csv'`, should inlclude:
 
-`file_name`: str - string of file name, including `'.csv'`
-`column_name`: str - string of existing column name
-`column_name_new`: str - string of new column name that will replace `'column_name'` in processing, or `NaN`
-`dtype`: str - string of data type (`'bool'`, `'int'`, `'float'`, `'categorical'`)
+- `file_name`: str - string of file name, including `'.csv'`
+- `column_name`: str - string of existing column name
+- `column_name_new`: str - string of new column name that will replace `'column_name'` in processing, or `NaN`
+- `dtype`: str - string of data type (`'bool'`, `'int'`, `'float'`, `'categorical'`)
 
 ### Functions
 
